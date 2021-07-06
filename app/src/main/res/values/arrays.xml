@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="menu1">
+        <item>@drawable/a_00000</item>
+        <item>@drawable/a_00001</item>
+        <item>@drawable/a_00002</item>
+        <item>@drawable/a_00003</item>
+        <item>@drawable/a_00004</item>
+        <item>@drawable/a_00005</item>
+        <item>@drawable/a_00006</item>
+        <item>@drawable/a_00007</item>
+        <item>@drawable/a_00008</item>
+        <item>@drawable/a_00009</item>
+        <item>@drawable/a_00010</item>
+        <item>@drawable/a_00011</item>
+        <item>@drawable/a_00012</item>
+        <item>@drawable/a_00013</item>
+        <item>@drawable/a_00014</item>
+        <item>@drawable/a_00015</item>
+        <item>@drawable/a_00016</item>
+        <item>@drawable/a_00017</item>
+        <item>@drawable/a_00018</item>
+        <item>@drawable/a_00019</item>
+        <item>@drawable/a_00020</item>
+        <item>@drawable/a_00021</item>
+        <item>@drawable/a_00022</item>
+        <item>@drawable/a_00023</item>
+        <item>@drawable/a_00024</item>
+    </integer-array>
+
+    <integer-array name="menu2">
+        <item>@drawable/b_00000</item>
+        <item>@drawable/b_00001</item>
+        <item>@drawable/b_00002</item>
+        <item>@drawable/b_00003</item>
+        <item>@drawable/b_00004</item>
+        <item>@drawable/b_00005</item>
+        <item>@drawable/b_00006</item>
+        <item>@drawable/b_00007</item>
+        <item>@drawable/b_00008</item>
+        <item>@drawable/b_00009</item>
+        <item>@drawable/b_00010</item>
+        <item>@drawable/b_00011</item>
+        <item>@drawable/b_00012</item>
+        <item>@drawable/b_00013</item>
+        <item>@drawable/b_00014</item>
+        <item>@drawable/b_00015</item>
+        <item>@drawable/b_00016</item>
+        <item>@drawable/b_00017</item>
+        <item>@drawable/b_00018</item>
+        <item>@drawable/b_00019</item>
+        <item>@drawable/b_00020</item>
+        <item>@drawable/b_00021</item>
+        <item>@drawable/b_00022</item>
+        <item>@drawable/b_00023</item>
+        <item>@drawable/b_00024</item>
+    </integer-array>
+
+    <integer-array name="menu3">
+        <item>@drawable/c_00000</item>
+        <item>@drawable/c_00001</item>
+        <item>@drawable/c_00002</item>
+        <item>@drawable/c_00003</item>
+        <item>@drawable/c_00004</item>
+        <item>@drawable/c_00005</item>
+        <item>@drawable/c_00006</item>
+        <item>@drawable/c_00007</item>
+        <item>@drawable/c_00008</item>
+        <item>@drawable/c_00009</item>
+        <item>@drawable/c_00010</item>
+        <item>@drawable/c_00011</item>
+        <item>@drawable/c_00012</item>
+        <item>@drawable/c_00013</item>
+        <item>@drawable/c_00014</item>
+        <item>@drawable/c_00015</item>
+        <item>@drawable/c_00016</item>
+        <item>@drawable/c_00017</item>
+        <item>@drawable/c_00018</item>
+        <item>@drawable/c_00019</item>
+        <item>@drawable/c_00020</item>
+        <item>@drawable/c_00021</item>
+        <item>@drawable/c_00022</item>
+        <item>@drawable/c_00023</item>
+        <item>@drawable/c_00024</item>
+    </integer-array>
+
+    <integer-array name="menu4">
+        <item>@drawable/d_00000</item>
+        <item>@drawable/d_00001</item>
+        <item>@drawable/d_00002</item>
+        <item>@drawable/d_00003</item>
+        <item>@drawable/d_00004</item>
+        <item>@drawable/d_00005</item>
+        <item>@drawable/d_00006</item>
+        <item>@drawable/d_00007</item>
+        <item>@drawable/d_00008</item>
+        <item>@drawable/d_00009</item>
+        <item>@drawable/d_00010</item>
+        <item>@drawable/d_00011</item>
+        <item>@drawable/d_00012</item>
+        <item>@drawable/d_00013</item>
+        <item>@drawable/d_00014</item>
+        <item>@drawable/d_00015</item>
+        <item>@drawable/d_00016</item>
+        <item>@drawable/d_00017</item>
+        <item>@drawable/d_00018</item>
+        <item>@drawable/d_00019</item>
+        <item>@drawable/d_00020</item>
+        <item>@drawable/d_00021</item>
+        <item>@drawable/d_00022</item>
+        <item>@drawable/d_00023</item>
+        <item>@drawable/d_00024</item>
+    </integer-array>
+</resources>

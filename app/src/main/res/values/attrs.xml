@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--动画导航栏-->
+    <declare-styleable name="NavigationAnimView">
+        <!--菜单栏文字-->
+        <attr name="nav_content" format="string" />
+        <!--是否选中-->
+        <attr name="nav_selected" format="boolean" />
+        <!--选中文字颜色-->
+        <attr name="nav_selectedTxtColor" format="reference|color" />
+        <!--未选中文字颜色-->
+        <attr name="nav_unselectedTxtColor" format="reference|color" />
+        <!--未选中图片-->
+        <attr name="nav_unSelectedImgRes" format="reference" />
+        <!--选中后动画图片资源集合-->
+        <attr name="nav_selectedImgRes" format="reference" />
+        <!--选中之后是否可以再次响应点击-->
+        <attr name="nav_selected_reselected" format="boolean" />
+        <!--文字大小-->
+        <attr name="nav_txt_size" format="dimension" />
+        <!--图片宽度-->
+        <attr name="nav_icon_width" format="dimension" />
+        <!--图片高度-->
+        <attr name="nav_icon_height" format="dimension" />
+        <!--文字图片间距-->
+        <attr name="nav_txt_icon_margin" format="dimension" />
+    </declare-styleable>
+</resources>
