@@ -24,5 +24,7 @@
         <attr name="nav_icon_height" format="dimension" />
         <!--文字图片间距-->
         <attr name="nav_txt_icon_margin" format="dimension" />
+        <!--动画时间-->
+        <attr name="nav_anim_time" format="integer" />
     </declare-styleable>
 </resources>

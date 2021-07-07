@@ -68,6 +68,10 @@ public class NavigationAnimView extends LinearLayout {
      */
     private int nav_txt_icon_margin;
     /**
+     * 动画时间
+     */
+    private int anim_time;
+    /**
      * 点击监听
      */
     private ClickListener clickListener;
@@ -91,6 +95,7 @@ public class NavigationAnimView extends LinearLayout {
         super(context, attrs, defStyleAttr, defStyleRes);
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.NavigationAnimView);
         content = typedArray.getString(R.styleable.NavigationAnimView_nav_content);
+        anim_time = typedArray.getInt(R.styleable.NavigationAnimView_nav_anim_time, 1000);
         txtSize = typedArray.getDimensionPixelSize(R.styleable.NavigationAnimView_nav_txt_size, 10);
         nav_icon_width = typedArray.getDimensionPixelSize(R.styleable.NavigationAnimView_nav_icon_width, SizeUtils.dp2px(24));
         nav_icon_height = typedArray.getDimensionPixelSize(R.styleable.NavigationAnimView_nav_icon_height, SizeUtils.dp2px(24));
@@ -165,7 +170,7 @@ public class NavigationAnimView extends LinearLayout {
         this.startAnim = startAnim;
         if (startAnim) {
             ValueAnimator valueAnimator = ValueAnimator.ofInt(0, selectedRes.length - 1);
-            valueAnimator.setDuration(1000);
+            valueAnimator.setDuration(anim_time);
             valueAnimator.setInterpolator(new LinearInterpolator());
             valueAnimator.setRepeatCount(0);
             valueAnimator.setRepeatMode(ValueAnimator.RESTART);

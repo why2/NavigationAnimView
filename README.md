@@ -19,6 +19,7 @@
             app:nav_selectedImgRes="@array/menu1"
             app:nav_selectedTxtColor="#333333"
             app:nav_txt_size="12sp"
+            app:nav_anim_time="500"
             app:nav_unSelectedImgRes="@drawable/ic_menu4_unselected"
             app:nav_unselectedTxtColor="#999999" />
 
@@ -30,6 +31,7 @@
             app:nav_selectedImgRes="@array/menu2"
             app:nav_selectedTxtColor="#333333"
             app:nav_txt_size="12sp"
+            app:nav_anim_time="500"
             app:nav_unSelectedImgRes="@drawable/ic_menu2_unselected"
             app:nav_unselectedTxtColor="#999999" />
 
@@ -41,6 +43,7 @@
             app:nav_selectedImgRes="@array/menu3"
             app:nav_selectedTxtColor="#333333"
             app:nav_txt_size="12sp"
+            app:nav_anim_time="500"
             app:nav_unSelectedImgRes="@drawable/ic_menu3_unselected"
             app:nav_unselectedTxtColor="#999999" />
 
@@ -52,6 +55,7 @@
             app:nav_selectedImgRes="@array/menu4"
             app:nav_selectedTxtColor="#333333"
             app:nav_txt_size="12sp"
+            app:nav_anim_time="500"
             app:nav_unSelectedImgRes="@drawable/ic_menu4_unselected"
             app:nav_unselectedTxtColor="#999999" />
     </com.why2.navigationanim.view.NavigationAnimLayout>
