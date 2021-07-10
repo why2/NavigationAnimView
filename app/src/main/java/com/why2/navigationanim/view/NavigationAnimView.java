@@ -77,6 +77,7 @@ public class NavigationAnimView extends LinearLayout {
     private ClickListener clickListener;
     private ImageView img_icon;
     private TextView tv_content;
+    private ValueAnimator valueAnimator;
 
     public NavigationAnimView(Context context) {
         this(context, null);
@@ -169,7 +170,7 @@ public class NavigationAnimView extends LinearLayout {
     public void setStartAnim(boolean startAnim) {
         this.startAnim = startAnim;
         if (startAnim) {
-            ValueAnimator valueAnimator = ValueAnimator.ofInt(0, selectedRes.length - 1);
+            valueAnimator = ValueAnimator.ofInt(0, selectedRes.length - 1);
             valueAnimator.setDuration(anim_time);
             valueAnimator.setInterpolator(new LinearInterpolator());
             valueAnimator.setRepeatCount(0);
@@ -177,6 +178,9 @@ public class NavigationAnimView extends LinearLayout {
             valueAnimator.addUpdateListener(animation -> img_icon.setImageResource(selected ? selectedRes[((int) animation.getAnimatedValue())] : unSelectedImgRes));
             valueAnimator.start();
         } else {
+            if (valueAnimator != null) {
+                valueAnimator.cancel();
+            }
             img_icon.clearAnimation();
             img_icon.setImageResource(selected ? selectedRes[selectedRes.length - 1] : unSelectedImgRes);
         }
